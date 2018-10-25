@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">ttuacm-backend/src/auth/config/passport.js | TTUACM Backend API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter">AuthRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ConfirmToken">AuthRouter-ConfirmToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-FacebookAuth">AuthRouter-FacebookAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ForgotLogin">AuthRouter-ForgotLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubAuth">AuthRouter-GitHubAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuth">AuthRouter-GoogleAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuthRedirect">AuthRouter-GoogleAuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Login">AuthRouter-Login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Register">AuthRouter-Register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ResetToken">AuthRouter-ResetToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-VerifyUser">AuthRouter-VerifyUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth/config</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-passport">passport</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/contacts</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/email</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter">EmailRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-contactUs">EmailRouter-contactUs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendChangedPasswordNotification">EmailRouter-sendChangedPasswordNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendConfirmationEmail">EmailRouter-sendConfirmationEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendResetEmail">EmailRouter-sendResetEmail</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/events</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter">EventsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-addAttendee">EventsRouter-addAttendee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getAttendees">EventsRouter-getAttendees</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getRawEvents">EventsRouter-getRawEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-listEvents">EventsRouter-listEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-removeAttendee">EventsRouter-removeAttendee</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/profile</div><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-getProfile">UserRouter-getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateResume">UserRouter-updateResume</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateUser">UserRouter-updateUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/utils</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">ttuacm-backend/src/auth/config/passport.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const passportJwt = require(&apos;passport-jwt&apos;)
+const { ExtractJwt } = require(&apos;passport-jwt&apos;)
+const passportGoogle = require(&apos;passport-google-oauth2&apos;)
+const passportGitHub = require(&apos;passport-github&apos;)
+const passportFacebook = require(&apos;passport-facebook&apos;)
+
+const JwtStrategy = passportJwt.Strategy
+const GoogleStrategy = passportGoogle.Strategy
+const GitHubStrategy = passportGitHub.Strategy
+const FacebookStrategy = passportFacebook.Strategy
+
+const User = require(&apos;../auth.model&apos;)
+
+/**
+ * Uses a JWT stategy to verify the token
+ *
+ * @param {object} passport I&apos;m not really sure. It&apos;s pretty magical tbh
+ */
+module.exports = (passport) =&gt; {
+  passport.serializeUser((user, done) =&gt; {
+    done(null, user.id)
+  })
+
+  passport.deserializeUser((id, done) =&gt; {
+    User.findById(id).then((user) =&gt; {
+      done(null, user)
+    })
+  })
+
+  // JWT Strategy
+  const jwtOpts = {
+    jwtFromRequest: ExtractJwt.fromAuthHeaderWithScheme(&apos;jwt&apos;),
+    secretOrKey: process.env.session_secret,
+  }
+  passport.use(
+    new JwtStrategy(jwtOpts, (jwtPayload, done) =&gt; {
+      User.getUserById(jwtPayload.data._id, (err, user) =&gt; {
+        if (err) {
+          return done(err, false)
+        }
+        if (user) {
+          return done(null, user)
+        }
+        return done(null, false)
+      })
+    }),
+  )
+
+  // Google Strategy
+  const googleClientID = process.env.google_clientid
+  const googleClientSecret = process.env.google_client_secret
+  const googleOpts = {
+    // Change this callback URL in production
+    callbackURL: &apos;/api/auth/google/redirect&apos;,
+    clientID: googleClientID,
+    clientSecret: googleClientSecret,
+  }
+  passport.use(
+    new GoogleStrategy(googleOpts, (accessToken, refreshToken, profile, done) =&gt; {
+      User.findOne({ googleId: profile.id })
+        .then((currentUser) =&gt; {
+          if (currentUser) {
+            // User exists in database
+            done(null, currentUser)
+          } else {
+            const data = {
+              googleId: profile.id,
+              email: profile.email,
+              firstName: profile.displayName.split(&apos; &apos;)[0],
+              lastName: profile.displayName.split(&apos; &apos;)[1],
+              verified: true,
+            }
+            User.mergeAccounts(profile, data, &apos;googleId&apos;, (err, user) =&gt; {
+              done(err, user)
+            })
+          }
+        })
+        .catch((err) =&gt; {
+          console.log(err)
+          done(err, null)
+        })
+    }),
+  )
+
+  // GitHub Strategy
+  const githubClientID = process.env.github_clientid
+  const githubClientSecret = process.env.github_client_secret
+  const githubOpts = {
+    callbackURL: &apos;/api/auth/github/redirect&apos;,
+    clientID: githubClientID,
+    clientSecret: githubClientSecret,
+  }
+  passport.use(
+    new GitHubStrategy(githubOpts, (accessToken, refreshToken, profile, done) =&gt; {
+      User.findOne({ githubId: profile.id })
+        .then((currentUser) =&gt; {
+          if (currentUser) {
+            done(null, currentUser)
+          } else {
+            // Sometimes, the user has their email access set to private
+            // In that case, we save their id instead
+            const emailData = profile._json.email === null ? profile.id : profile._json.email
+            const data = {
+              githubId: profile.id,
+              email: emailData,
+              firstName: profile.displayName.split(&apos; &apos;)[0],
+              lastName: profile.displayName.split(&apos; &apos;)[1],
+              verified: true,
+            }
+            User.mergeAccounts(profile, data, &apos;githubId&apos;, (err, user) =&gt; {
+              done(err, user)
+            })
+          }
+        })
+        .catch((err) =&gt; {
+          console.error(err)
+          done(err, null)
+        })
+    }),
+  )
+  // Facebook Strategy
+  const facebookClientID = process.env.facebook_clientid
+  const facebookClientSecret = process.env.facebook_client_secret
+  const facebookOpts = {
+    callbackURL: &apos;/api/auth/facebook/redirect&apos;,
+    clientID: facebookClientID,
+    clientSecret: facebookClientSecret,
+    profileFields: [&apos;id&apos;, &apos;emails&apos;, &apos;name&apos;],
+  }
+  passport.use(
+    new FacebookStrategy(facebookOpts, (accessToken, refreshToken, profile, done) =&gt; {
+      User.findOne({ facebookId: profile.id })
+        .then((currentUser) =&gt; {
+          if (currentUser) {
+            done(null, currentUser)
+          } else {
+            // Sometimes, the user has their email access set to private
+            // In that case, we save their id instead
+            const emailData = profile._json.email === null ? profile.id : profile._json.email
+            const data = {
+              facebookId: profile.id,
+              email: emailData,
+              firstName: profile._json.first_name,
+              lastName: profile._json.last_name,
+              verified: true,
+            }
+            User.mergeAccounts(profile, data, &apos;facebookId&apos;, (err, user) =&gt; {
+              done(err, user)
+            })
+          }
+        })
+        .catch((err) =&gt; {
+          console.error(err)
+          done(err, null)
+        })
+    }),
+  )
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

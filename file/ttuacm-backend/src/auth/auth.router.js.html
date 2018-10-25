@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">ttuacm-backend/src/auth/auth.router.js | TTUACM Backend API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter">AuthRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ConfirmToken">AuthRouter-ConfirmToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-FacebookAuth">AuthRouter-FacebookAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ForgotLogin">AuthRouter-ForgotLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubAuth">AuthRouter-GitHubAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuth">AuthRouter-GoogleAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuthRedirect">AuthRouter-GoogleAuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Login">AuthRouter-Login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Register">AuthRouter-Register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ResetToken">AuthRouter-ResetToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-VerifyUser">AuthRouter-VerifyUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth/config</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-passport">passport</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/contacts</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/email</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter">EmailRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-contactUs">EmailRouter-contactUs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendChangedPasswordNotification">EmailRouter-sendChangedPasswordNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendConfirmationEmail">EmailRouter-sendConfirmationEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendResetEmail">EmailRouter-sendResetEmail</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/events</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter">EventsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-addAttendee">EventsRouter-addAttendee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getAttendees">EventsRouter-getAttendees</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getRawEvents">EventsRouter-getRawEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-listEvents">EventsRouter-listEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-removeAttendee">EventsRouter-removeAttendee</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/profile</div><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-getProfile">UserRouter-getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateResume">UserRouter-updateResume</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateUser">UserRouter-updateUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/utils</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">ttuacm-backend/src/auth/auth.router.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const express = require(&apos;express&apos;)
+const passport = require(&apos;passport&apos;)
+const querystring = require(&apos;querystring&apos;)
+
+const router = express.Router()
+
+const Controller = require(&apos;./auth.controller&apos;)
+
+/**
+ * Testing route for the Auth Service
+ *
+ * - Endpoint: `/auth/api/v2`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter
+ */
+router.get(&apos;/&apos;, (req, res) =&gt; {
+  res.send(&apos;Auth App Works!&apos;)
+})
+
+/**
+ * Gets the Google Login Screen
+ *
+ * - Endpoint: `/auth/api/v2/google`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-GoogleAuth
+ */
+router.get(
+  &apos;/google&apos;,
+  passport.authenticate(&apos;google&apos;, {
+    scope: [
+      &apos;https://www.googleapis.com/auth/userinfo.profile&apos;,
+      &apos;https://www.googleapis.com/auth/userinfo.email&apos;,
+    ],
+  }),
+)
+
+/**
+ * Callback for Google OAuth2
+ *
+ * - Endpoint: `/auth/api/v2/google/redirect`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-GoogleAuthRedirect
+ */
+router.get(&apos;/google/redirect&apos;, passport.authenticate(&apos;google&apos;), (req, res) =&gt; {
+  const qs = Controller.oauth2(req.user)
+  res.redirect(`${req.body.redirectURL}/?${qs}`)
+})
+
+/**
+ * Gets the GitHub Login Screen
+ *
+ * - Endpoint: `/auth/api/v2/github`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-GitHubAuth
+ */
+router.get(
+  &apos;/github&apos;,
+  passport.authenticate(&apos;github&apos;, {
+    scope: [&apos;read:user&apos;],
+  }),
+)
+
+/**
+ * Callback for GitHub OAuth2
+ *
+ * - Endpoint: `/auth/api/v2/github/redirect`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-GitHubuthRedirect
+ */
+router.get(&apos;/github/redirect&apos;, passport.authenticate(&apos;github&apos;), (req, res) =&gt; {
+  const qs = Controller.oauth2(req.user)
+  res.redirect(`${req.body.redirectURL}/?${qs}`)
+})
+
+/**
+ * Gets the Facebook Login Screen
+ *
+ * - Endpoint: `/auth/api/v2/facebook`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-FacebookAuth
+ */
+router.get(
+  &apos;/facebook&apos;,
+  passport.authenticate(&apos;facebook&apos;, {
+    scope: [&apos;public_profile&apos;, &apos;email&apos;],
+  }),
+)
+
+/**
+ * Callback for Facebook OAuth2
+ *
+ * - Endpoint: `/auth/api/v2/facebook/redirect`
+ * - Verb: GET
+ *
+ * @typedef {function} AuthRouter-GitHubuthRedirect
+ */
+router.get(
+  &apos;/facebook/redirect&apos;,
+  passport.authenticate(&apos;facebook&apos;, {
+    failureRedirect: &apos;/login&apos;,
+  }),
+  (req, res) =&gt; {
+    const qs = Controller.oauth2(req.user)
+    res.redirect(`${req.body.redirectURL}/?${qs}`)
+  },
+)
+
+/**
+ * Registers the user and saves them as a unverified user
+ * It then sends an email to that user to verify
+ *
+ * - Endpoint: `/auth/api/v2/register`
+ * - Verb: POST
+ *
+ * - OnFailure: Sends an error message
+ * - OnSuccess: Sends the user back as JSON
+ *
+ * @typedef {function} AuthRouter-Register
+ */
+router.post(&apos;/register&apos;, async (req, res) =&gt; {
+  const user = {
+    email: req.body.email,
+    password: req.body.password,
+    confirmEmailToken: null,
+  }
+  try {
+    const ctrl = new Controller()
+    const createdUser = await ctrl.register(user)
+    // TODO: Send Confirmation email
+    res.status(201).json({ createdUser })
+  } catch (err) {
+    res.status(err.code).json({ err })
+  }
+})
+
+/**
+ * JWT Login/Authentication
+ * User must not have signed up using OAuth2
+ *
+ * - Endpoint: `/auth/api/v2/login`
+ * - Verb: POST
+ *
+ * - OnFailure: Sends an error message
+ * - OnSuccess: Sends the JWT Token of the user
+ *
+ * @typedef {function} AuthRouter-Login
+ */
+router.post(&apos;/login&apos;, (req, res) =&gt; {
+  const ctrl = new Controller()
+  const { email } = req.body
+  const inputPassword = req.body.password
+  ctrl.login(email, inputPassword)
+    .then((response) =&gt; {
+      const { token } = response
+      const user = response.foundUser
+      res.status(200).json({ token: `JWT ${token}`, user })
+    })
+    .catch((err) =&gt; {
+      res.status(err.code).json({ err })
+    })
+})
+
+/**
+ * Confirms the user has a valid email account
+ *
+ * - Endpoint: `/auth/api/v2/confirm/:token`
+ * - Verb: GET
+ *
+ * - OnFailure: Redirects to error page
+ * - OnSuccess: Redirects to the login page with querystring to signal a notification
+ *
+ * @typedef {function} AuthRouter-ConfirmToken
+ * @param {querystring} token - HEX token saved in confirmEmailToken
+ */
+router.get(&apos;/confirm/:token&apos;, (req, res) =&gt; {
+  const ctrl = new Controller()
+  const { token } = req.params
+  const { redirectURL } = req.body
+  ctrl.confirmToken(token)
+    .then(() =&gt; {
+      const qs = querystring.stringify({ verify: &apos;success&apos; })
+      res.redirect(`${redirectURL}/auth/?${qs}`)
+    })
+    .catch(() =&gt; {
+      const qs = querystring.stringify({ err: &apos;Error Validating Email&apos; })
+      res.redirect(`${redirectURL}/?${qs}`)
+    })
+})
+
+/**
+ * Verifies that the user is resetting the password of an account they own
+ *
+ * - Endpoint: `/auth/api/v2/forgot`
+ * - Verb: POST
+ *
+ * - OnFailure: Sends an internal server error message
+ * - OnSuccess: Sends the user that the email was sent to
+ *
+ * @typedef {function} AuthRouter-ForgotLogin
+ * @param {string} req.body.email - Email for the account that needs to change passwords
+ */
+router.post(&apos;/forgot&apos;, async (req, res) =&gt; {
+  try {
+    const ctrl = new Controller()
+    const { email } = req.body
+    const payload = await ctrl.forgotLogin(email)
+    // TODO: Send a reset email
+    res.status(200).json({ recipient: payload.user })
+  } catch (err) {
+    res.status(err.code).json({ msg: err.message })
+  }
+})
+
+/**
+ * This endpoint is hit by an email to reset a user password
+ * This endpoint is hit first in the sequence
+ *
+ * - Endpoint: `/auth/api/v2/reset/:token`
+ * - Verb: GET
+ *
+ * - OnFailure: Redirects to the login screen with an error in query string
+ * - OnSuccess: Redirects to the forgot-redirect page to change password
+ *
+ * @typedef {function} AuthRouter-ResetToken
+ * @param {string} token - A string that contains the HEX code/Reset token of a lost account
+ */
+router.get(&apos;/reset/:token&apos;, (req, res) =&gt; {
+  const ctrl = new Controller()
+  const { token } = req.params
+  const { redirectURL } = req.body
+  ctrl.resetToken(token)
+    .then((passToken) =&gt; {
+      const qs = querystring.stringify({ token: passToken })
+      res.redirect(`${redirectURL}/auth/forgot/redirect/?${qs}`)
+    })
+    .catch((err) =&gt; {
+      const qs = querystring.stringify({ err })
+      res.redirect(`${redirectURL}/auth/?${qs}`)
+    })
+})
+
+/**
+ * Client hits this endpoint with a token and a new password to update the account with
+ *
+ * - Endpoint: `/auth/api/v2/reset/:token`
+ * - Verb: POST
+ *
+ * - OnFailure: Sends a success status code
+ * - OnSuccess: Sends a error status code
+ *
+ * @typedef {function} AuthRouter-VerifyUser
+ */
+router.post(&apos;/reset/:token&apos;, async (req, res) =&gt; {
+  try {
+    const ctrl = new Controller()
+    const { token } = req.params
+    const { password } = req.body
+
+    const user = await ctrl.verifyUser(token, password)
+    // TODO: send a changed password email
+    res.status(200).json({ user })
+  } catch (err) {
+    res.status(404).json({ user: null })
+  }
+})
+
+module.exports = router
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="">
+  <title data-ice="title">Source | TTUACM Backend API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter">AuthRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ConfirmToken">AuthRouter-ConfirmToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-FacebookAuth">AuthRouter-FacebookAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ForgotLogin">AuthRouter-ForgotLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubAuth">AuthRouter-GitHubAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuth">AuthRouter-GoogleAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuthRedirect">AuthRouter-GoogleAuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Login">AuthRouter-Login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Register">AuthRouter-Register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ResetToken">AuthRouter-ResetToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-VerifyUser">AuthRouter-VerifyUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth/config</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-passport">passport</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/contacts</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/email</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter">EmailRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-contactUs">EmailRouter-contactUs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendChangedPasswordNotification">EmailRouter-sendChangedPasswordNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendConfirmationEmail">EmailRouter-sendConfirmationEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendResetEmail">EmailRouter-sendResetEmail</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/events</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter">EventsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-addAttendee">EventsRouter-addAttendee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getAttendees">EventsRouter-getAttendees</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getRawEvents">EventsRouter-getRawEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-listEvents">EventsRouter-listEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-removeAttendee">EventsRouter-removeAttendee</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/profile</div><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-getProfile">UserRouter-getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateResume">UserRouter-updateResume</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateUser">UserRouter-updateUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/utils</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">39/39</span></h1>
+
+<table class="files-summary" data-ice="files" data-use-coverage="true">
+  <thead>
+    <tr>
+      <td>File</td>
+      <td>Identifier</td>
+      <td class="coverage">Document</td>
+      <td style="display: none;">Size</td>
+      <td style="display: none;">Lines</td>
+      <td style="display: none;">Updated</td>
+    </tr>
+  </thead>
+  <tbody>
+    
+  <tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.app.js.html">ttuacm-backend/src/auth/auth.app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">808 byte</td>
+      <td style="display: none;" data-ice="lines">30</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.controller.js.html">ttuacm-backend/src/auth/auth.controller.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">7959 byte</td>
+      <td style="display: none;" data-ice="lines">249</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.controller.spec.js.html">ttuacm-backend/src/auth/auth.controller.spec.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">7650 byte</td>
+      <td style="display: none;" data-ice="lines">265</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.errors.js.html">ttuacm-backend/src/auth/auth.errors.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1804 byte</td>
+      <td style="display: none;" data-ice="lines">93</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.model.js.html">ttuacm-backend/src/auth/auth.model.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">9/9</span></td>
+      <td style="display: none;" data-ice="size">5432 byte</td>
+      <td style="display: none;" data-ice="lines">190</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.router.js.html">ttuacm-backend/src/auth/auth.router.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">6833 byte</td>
+      <td style="display: none;" data-ice="lines">273</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/auth.router.spec.js.html">ttuacm-backend/src/auth/auth.router.spec.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">227 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/config/oauth2.js.html">ttuacm-backend/src/auth/config/oauth2.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">3603 byte</td>
+      <td style="display: none;" data-ice="lines">118</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/config/passport.js.html">ttuacm-backend/src/auth/config/passport.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-passport">passport</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">5007 byte</td>
+      <td style="display: none;" data-ice="lines">158</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/auth/index.js.html">ttuacm-backend/src/auth/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">60 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/contacts.app.js.html">ttuacm-backend/src/contacts/contacts.app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">156 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/contacts.controller.js.html">ttuacm-backend/src/contacts/contacts.controller.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">2142 byte</td>
+      <td style="display: none;" data-ice="lines">61</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/contacts.errors.js.html">ttuacm-backend/src/contacts/contacts.errors.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">0 byte</td>
+      
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/contacts.model.js.html">ttuacm-backend/src/contacts/contacts.model.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">10452 byte</td>
+      <td style="display: none;" data-ice="lines">321</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/contacts.router.js.html">ttuacm-backend/src/contacts/contacts.router.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1330 byte</td>
+      <td style="display: none;" data-ice="lines">48</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/contacts/index.js.html">ttuacm-backend/src/contacts/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">72 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/email/email.app.js.html">ttuacm-backend/src/email/email.app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">307 byte</td>
+      <td style="display: none;" data-ice="lines">13</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/email/email.controller.js.html">ttuacm-backend/src/email/email.controller.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">6/6</span></td>
+      <td style="display: none;" data-ice="size">5252 byte</td>
+      <td style="display: none;" data-ice="lines">172</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/email/email.router.js.html">ttuacm-backend/src/email/email.router.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">2608 byte</td>
+      <td style="display: none;" data-ice="lines">106</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/email/index.js.html">ttuacm-backend/src/email/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">63 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/events/events.app.js.html">ttuacm-backend/src/events/events.app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">337 byte</td>
+      <td style="display: none;" data-ice="lines">13</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/events/events.controller.js.html">ttuacm-backend/src/events/events.controller.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">11/11</span></td>
+      <td style="display: none;" data-ice="size">5828 byte</td>
+      <td style="display: none;" data-ice="lines">217</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/events/events.router.js.html">ttuacm-backend/src/events/events.router.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">3229 byte</td>
+      <td style="display: none;" data-ice="lines">126</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/events/index.js.html">ttuacm-backend/src/events/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">66 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/profile/index.js.html">ttuacm-backend/src/profile/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">69 byte</td>
+      <td style="display: none;" data-ice="lines">3</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/profile/profile.app.js.html">ttuacm-backend/src/profile/profile.app.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">341 byte</td>
+      <td style="display: none;" data-ice="lines">14</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/profile/profile.controller.js.html">ttuacm-backend/src/profile/profile.controller.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">1443 byte</td>
+      <td style="display: none;" data-ice="lines">52</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/profile/profile.model.js.html">ttuacm-backend/src/profile/profile.model.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">603 byte</td>
+      <td style="display: none;" data-ice="lines">20</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/profile/profile.router.js.html">ttuacm-backend/src/profile/profile.router.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">2335 byte</td>
+      <td style="display: none;" data-ice="lines">96</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:04 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/utils/db-connect.js.html">ttuacm-backend/src/utils/db-connect.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">583 byte</td>
+      <td style="display: none;" data-ice="lines">26</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/utils/generate-hex.js.html">ttuacm-backend/src/utils/generate-hex.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">297 byte</td>
+      <td style="display: none;" data-ice="lines">13</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/utils/generate-jwt.js.html">ttuacm-backend/src/utils/generate-jwt.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">533 byte</td>
+      <td style="display: none;" data-ice="lines">19</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/utils/protected-route.js.html">ttuacm-backend/src/utils/protected-route.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">1/1</span></td>
+      <td style="display: none;" data-ice="size">433 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:05 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/ttuacm-backend/src/utils/request.js.html">ttuacm-backend/src/utils/request.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span>
+<span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></td>
+      <td class="coverage"><span data-ice="coverage">100 %</span><span data-ice="coverageCount" class="coverage-count">7/7</span></td>
+      <td style="display: none;" data-ice="size">3355 byte</td>
+      <td style="display: none;" data-ice="lines">161</td>
+      <td style="display: none;" data-ice="updated">2018-10-05 04:16:05 (UTC)</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">ttuacm-backend/src/email/email.controller.js | TTUACM Backend API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter">AuthRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ConfirmToken">AuthRouter-ConfirmToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-FacebookAuth">AuthRouter-FacebookAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ForgotLogin">AuthRouter-ForgotLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubAuth">AuthRouter-GitHubAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuth">AuthRouter-GoogleAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuthRedirect">AuthRouter-GoogleAuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Login">AuthRouter-Login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Register">AuthRouter-Register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ResetToken">AuthRouter-ResetToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-VerifyUser">AuthRouter-VerifyUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth/config</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-passport">passport</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/contacts</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/email</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter">EmailRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-contactUs">EmailRouter-contactUs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendChangedPasswordNotification">EmailRouter-sendChangedPasswordNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendConfirmationEmail">EmailRouter-sendConfirmationEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendResetEmail">EmailRouter-sendResetEmail</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/events</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter">EventsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-addAttendee">EventsRouter-addAttendee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getAttendees">EventsRouter-getAttendees</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getRawEvents">EventsRouter-getRawEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-listEvents">EventsRouter-listEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-removeAttendee">EventsRouter-removeAttendee</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/profile</div><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-getProfile">UserRouter-getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateResume">UserRouter-updateResume</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateUser">UserRouter-updateUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/utils</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">ttuacm-backend/src/email/email.controller.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const nodemailer = require(&apos;nodemailer&apos;)
+
+/**
+ * Handles sending emails to students
+ */
+class EmailController {
+  /**
+   * Sets the protocol and host for all links in the emails
+   * @param {string} protocol protocol of host [http, https]
+   * @param {string} host host of host [localhost, acmttu.org]
+   */
+  constructor(protocol, host) {
+    if (!protocol) {
+      throw new Error(&apos;Did not pass a protocol&apos;)
+    } else if (!host) {
+      throw new Error(&apos;Did not pass a host&apos;)
+    }
+
+    this.protocol = protocol
+    this.host = host
+    this.mailbox = process.env.email_username
+
+    if (process.env.NODE_ENV !== &apos;prod&apos;) {
+      this.smtpTransporter = nodemailer.createTransport({
+        host: &apos;smtp.ethereal.email&apos;,
+        port: 587,
+        auth: {
+          user: &apos;fr3yjbymylwvbkc6@ethereal.email&apos;,
+          pass: &apos;sCvgzSPfhssNBEH3TQ&apos;,
+        },
+        tls: {
+          // do not fail on invalid certs
+          rejectUnauthorized: false,
+        },
+      })
+    } else {
+      this.smtpTransporter = nodemailer.createTransport({
+        service: &apos;Gmail&apos;,
+        auth: {
+          user: process.env.email_username,
+          pass: process.env.email_password,
+        },
+        tls: {
+          // do not fail on invalid certs
+          rejectUnauthorized: false,
+        },
+      })
+    }
+  }
+
+  /**
+   * Sends Reset Password email
+   *
+   * @param {string} email user&apos;s email
+   * @param {string} token HEX token/reset token
+   * @returns {Promise.&lt;null, Error&gt;} Rejects with an error if there is something wrong with the email
+   * @todo Make this look cleaner
+   */
+  sendResetEmail(token, email) {
+    return new Promise((resolve, reject) =&gt; {
+      const mailOptions = {
+        to: email,
+        from: &apos;Texas Tech ACM&apos;,
+        subject: &apos;TTU ACM Password Reset&apos;,
+        html: `&lt;p&gt;You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\nPlease click on the following link, or paste this into your browser to complete the process:\n\n&lt;/p&gt;\n\n&lt;a&gt;${
+          this.protocol
+        }://${
+          this.host
+        }/api/users/reset/${token}&lt;/a&gt;\n\n&lt;p&gt;If you did not request this, please ignore this email and your password will remain unchanged.&lt;/p&gt;\n`,
+      }
+      this.smtpTransporter.sendMail(mailOptions, (err) =&gt; {
+        if (err) {
+          console.error(err)
+          reject(err)
+        }
+        console.log(`Email send to ${email}`)
+        resolve()
+      })
+    })
+  }
+
+  /**
+   * Send the notification to the user that informtion in their account has changed
+   *
+   * @param {string} email user&apos;s email
+   * @returns {Promise.&lt;null, Error&gt;} Rejects with an error if there is something wrong with the email
+   */
+  sendChangedPasswordEmail(email) {
+    return new Promise((resolve, reject) =&gt; {
+      const mailOptions = {
+        to: email,
+        from: this.mailbox,
+        subject: &apos;Your password has been changed&apos;,
+        text:
+          &apos;Hello,\n\n&apos;
+          + &apos;This is a confirmation that the password for your account has been changed.\n&apos;,
+      }
+      this.smtpTransporter.sendMail(mailOptions, (err) =&gt; {
+        if (err) {
+          console.error(err)
+          reject(err)
+        }
+        console.log(`Email send to ${email}`)
+        resolve()
+      })
+    })
+  }
+
+  /**
+   * Sends a question to the mailbox
+   *
+   * @param {Object} options options object
+   * @param {string} options.name student name
+   * @param {string} options.email student email
+   * @param {string} options.topic student topic
+   * @param {string} options.message student message
+   * @returns {Promise.&lt;null, Error&gt;}
+   */
+  contactUs(options) {
+    return new Promise((resolve, reject) =&gt; {
+      const mailOptions = {
+        from: options.email,
+        to: this.mailbox,
+        subject: &apos;ACM Question&apos;,
+        text: `You got a message!\n\nSender: ${options.name}\n\nEmail: ${options.email}\n\nTopic: ${
+          options.topic
+        }\n\nMessage: ${options.message}\n`,
+      }
+      this.smtpTransporter.sendMail(mailOptions, (err) =&gt; {
+        if (err) {
+          console.error(err)
+          reject(err)
+        }
+        console.log(`Email send to ${this.mailbox}`)
+        resolve()
+      })
+    })
+  }
+
+  /**
+   * Sends a confirmation email to the user with a link/endpoint
+   * and their token to verify their email
+   *
+   * @param {string} email user&apos;s email
+   * @param {string} token user&apos;s HEX token saved in the auth database
+   * @returns {Promise.&lt;null, Error&gt;}
+   */
+  sendConfirmationEmail(email, token) {
+    return new Promise((resolve, reject) =&gt; {
+      const mailOptions = {
+        to: email,
+        from: &apos;Texas Tech ACM&apos;,
+        subject: &apos;Welcome to ACM: TTU&apos;,
+        html: `&lt;p&gt;Please click on the following link, or paste this into your browser to verify your account:&lt;/p&gt;\n\n&lt;a&gt;${
+          this.protocol
+        }://${
+          this.host
+        }/api/users/confirm/${token}&lt;/a&gt;\n\n&lt;p&gt;If you did not sign up for an account, please ignore this email.&lt;/p&gt;\n`,
+      }
+      this.smtpTransporter.sendMail(mailOptions, (err) =&gt; {
+        if (err) {
+          console.error(err)
+          reject(err)
+        }
+        console.log(`Email send to ${email}`)
+        resolve()
+      })
+    })
+  }
+}
+
+exports = EmailController
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

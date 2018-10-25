@@ -1,0 +1,57 @@
+{
+  "coverage": "100%",
+  "expectCount": 39,
+  "actualCount": 39,
+  "files": {
+    "ttuacm-backend/src/auth/auth.model.js": {
+      "expectCount": 9,
+      "actualCount": 9,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/email/email.controller.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/events/events.controller.js": {
+      "expectCount": 11,
+      "actualCount": 11,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/utils/request.js": {
+      "expectCount": 7,
+      "actualCount": 7,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/utils/db-connect.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/contacts/contacts.model.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/utils/generate-hex.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/utils/generate-jwt.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/utils/protected-route.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "ttuacm-backend/src/auth/config/passport.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

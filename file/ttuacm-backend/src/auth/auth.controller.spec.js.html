@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">ttuacm-backend/src/auth/auth.controller.spec.js | TTUACM Backend API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/auth/auth.model.js~AuthModel.html">AuthModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter">AuthRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ConfirmToken">AuthRouter-ConfirmToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-FacebookAuth">AuthRouter-FacebookAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ForgotLogin">AuthRouter-ForgotLogin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubAuth">AuthRouter-GitHubAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GitHubuthRedirect">AuthRouter-GitHubuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuth">AuthRouter-GoogleAuth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-GoogleAuthRedirect">AuthRouter-GoogleAuthRedirect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Login">AuthRouter-Login</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-Register">AuthRouter-Register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-ResetToken">AuthRouter-ResetToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-AuthRouter-VerifyUser">AuthRouter-VerifyUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/auth/config</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-passport">passport</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/contacts</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-formatGroupName">formatGroupName</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ContactsRouter">ContactsRouter</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/email</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/email/email.controller.js~EmailController.html">EmailController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter">EmailRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-contactUs">EmailRouter-contactUs</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendChangedPasswordNotification">EmailRouter-sendChangedPasswordNotification</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendConfirmationEmail">EmailRouter-sendConfirmationEmail</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EmailRouter-sendResetEmail">EmailRouter-sendResetEmail</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/events</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/events/events.controller.js~EventsController.html">EventsController</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter">EventsRouter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-addAttendee">EventsRouter-addAttendee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getAttendees">EventsRouter-getAttendees</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-getRawEvents">EventsRouter-getRawEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-listEvents">EventsRouter-listEvents</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-EventsRouter-removeAttendee">EventsRouter-removeAttendee</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/profile</div><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-getProfile">UserRouter-getProfile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateResume">UserRouter-updateResume</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-UserRouter-updateUser">UserRouter-updateUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">src/utils</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/ttuacm-backend/src/utils/request.js~Request.html">Request</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-connectDB">connectDB</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateHexToken">generateHexToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-generateJWTToken">generateJWTToken</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-membersOnlyRoute">membersOnlyRoute</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">ttuacm-backend/src/auth/auth.controller.spec.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">require(&apos;firebase-functions-test&apos;)()
+const chai = require(&apos;chai&apos;)
+const mongoose = require(&apos;mongoose&apos;)
+const Controller = require(&apos;./auth.controller&apos;)
+const Model = require(&apos;./auth.model&apos;)
+const ErrorMessages = require(&apos;./auth.errors&apos;)
+
+const { expect } = chai
+
+describe(&apos;Auth Unit Tests&apos;, () =&gt; {
+  let ctrl
+  let model
+  // eslint-disable-next-line
+  beforeAll((done) =&gt; {
+    mongoose.connect(&apos;mongodb://localhost:27017/testing&apos;, {
+      useNewUrlParser: true,
+    }, (err) =&gt; {
+      done(err)
+    })
+  })
+
+  beforeEach(() =&gt; {
+    ctrl = new Controller()
+    model = new Model()
+  })
+
+  afterEach(() =&gt; {
+    // Make sure to at least create one user for each test
+    // or this will error out
+    mongoose.connection.dropCollection(&apos;students&apos;)
+  })
+
+  it(&apos;[register] should save a new user to the database&apos;, () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+    }
+
+    return ctrl.register(testUser)
+      .then((createdUser) =&gt; {
+        expect(createdUser.email).to.equal(&apos;email@gmail.com&apos;)
+        expect(createdUser.password).not.to.equal(&apos;password&apos;)
+      })
+  })
+
+  it(&apos;[register] should reject a new user to the database if they share an email&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+    }
+
+    try {
+      await ctrl.register(testUser)
+      await ctrl.register(testUser)
+      throw ErrorMessages.ErrorTestUtil()
+    } catch(err) {
+      const targetError = ErrorMessages.DuplicateAccount()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[login] should block a user login if they are not verified&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail&apos;,
+      password: &apos;password&apos;,
+    }
+
+    await ctrl.register(testUser)
+
+    try {
+      await ctrl.login(testUser.email, testUser.password)
+    } catch (err) {
+      const targetError = ErrorMessages.UserNotVerified()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[login] should block a user to login if they are give the wrong password&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail&apos;,
+      password: &apos;password&apos;,
+    }
+
+    const newUser = await ctrl.register(testUser)
+
+    try {
+      await ctrl.confirmToken(newUser.confirmEmailToken)
+      await ctrl.login(testUser.email, &apos;NotTheRightPassword&apos;)
+    } catch (err) {
+      const targetError = ErrorMessages.InvalidLogin()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[login] should allow a user to login if they are give the right password&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail&apos;,
+      password: &apos;password&apos;,
+      verified: true
+    }
+
+    const newUser = await ctrl.register(testUser)
+
+    try {
+      await ctrl.confirmToken(newUser.confirmEmailToken)
+      // testUser is passed by reference so you have to hardcode password
+      const { token, foundUser } = await ctrl.login(testUser.email, &apos;password&apos;)
+      expect(token).to.exist
+      expect(foundUser).to.exist
+    } catch (err) {
+      expect(err).not.to.exist
+    }
+  })
+
+  it(&apos;[forgotLogin] should update the user\&apos;s resetPass attributes&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail&apos;,
+      password: &apos;password&apos;,
+      confirmEmailToken: &apos;&apos;,
+      verified: true
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      const { user } = await ctrl.forgotLogin(testUser.email)
+      expect(user.resetPasswordExpires).to.exist
+      expect(user.resetPasswordToken).to.exist
+    } catch (err) {
+      expect(err).not.to.exist
+    }
+  })
+
+  it(&apos;[forgotLogin] should throw error if an email was not found&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail&apos;,
+      password: &apos;password&apos;,
+      verified: true
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      await ctrl.forgotLogin(&apos;NotAValidEmail&apos;)
+      throw ErrorMessages.ErrorTestUtil()
+    } catch (err) {
+      const targetError = ErrorMessages.NotFoundErr()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[resetToken] should throw an error if a reset token was not passed&apos;, async () =&gt; {
+    try {
+      await model.createNewUser({ email: &apos;email&apos; })
+      await ctrl.resetToken()
+      throw ErrorMessages.ErrorTestUtil()
+    } catch (err) {
+      const targetError = ErrorMessages.MissingToken()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[resetToken] should throw an error if an invalid token was passed&apos;, async () =&gt; {
+    try {
+      await model.createNewUser({ email: &apos;email&apos; })
+      await ctrl.resetToken(&apos;Bad Token&apos;)
+      throw ErrorMessages.ErrorTestUtil()
+    } catch (err) {
+      const targetError = ErrorMessages.NotFoundErr()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[resetToken] should resolve with the user\&apos;s token&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+      resetPasswordToken: &apos;Token&apos;,
+      resetPasswordExpires: Date.now() + 1000000
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      const successToken = await ctrl.resetToken(&apos;Token&apos;)
+      expect(successToken).to.exist
+    } catch (err) {
+      expect(err).not.to.exist
+    }
+  })
+
+  it(&apos;[verifyUser] should throw an error when the user passes a bad JWT&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+      resetPasswordToken: &apos;Token&apos;,
+      resetPasswordExpires: Date.now() + 1000000
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      await ctrl.verifyUser(&apos;Bad Token&apos;, &apos;password&apos;)
+      throw ErrorMessages.ErrorTestUtil()
+    } catch (err) {
+      const targetError = ErrorMessages.NotFoundErr()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+
+  it(&apos;[verifyUser] should update the found user they pass a JWT&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+      resetPasswordToken: &apos;Token&apos;,
+      resetPasswordExpires: Date.now() + 1000000
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      const updatedUser = await ctrl.verifyUser(&apos;Token&apos;, &apos;password&apos;)
+      expect(updatedUser).to.exist
+    } catch (err) {
+      expect(err).not.to.exist
+    }
+  })
+
+  it(&apos;[confirmToken] should correctly compare two matching tokens&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+      confirmEmailToken: &apos;Token&apos;
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      const updatedUser = await ctrl.confirmToken(&apos;Token&apos;)
+      expect(updatedUser.confirmEmailToken).to.equal(&apos;&apos;)
+      expect(updatedUser.verified).to.equal(true)
+    } catch (err) {
+      expect(err).not.to.exist
+    }
+  })
+
+  it(&apos;[confirmToken] should throw error for two mismatching tokens&apos;, async () =&gt; {
+    const testUser = {
+      email: &apos;email@gmail.com&apos;,
+      password: &apos;password&apos;,
+      confirmEmailToken: &apos;Token&apos;
+    }
+
+    try {
+      await model.createNewUser(testUser)
+      await ctrl.confirmToken(&apos;Bad Token&apos;)
+      throw ErrorMessages.ErrorTestUtil()
+    } catch (err) {
+      const targetError = ErrorMessages.NotFoundErr()
+      expect(err.message).to.equal(targetError.message)
+      expect(err.code).to.equal(targetError.code)
+    }
+  })
+})
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
